@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-img=cv2.imread('/home/himanshu/Desktop/iisc/pictures/472.jpg',1)
+img=cv2.imread('72.jpg',1)
 
 area= img[280:340, 330:390]
 #copying of area 
