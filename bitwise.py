@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-img1=cv2.imread('/home/himanshu/Desktop/iisc/pictures/img1.png',1)
-img2=cv2.imread('/home/himanshu/Desktop/iisc/pictures/img2.png',1)
+img1=cv2.imread('1.png',1)
+img2=cv2.imread('2.png',1)
 # I want to put logo on top-left corner, So I create a ROI
 rows,cols,channels=img2.shape
 roi=img1[0:rows,0:cols]
