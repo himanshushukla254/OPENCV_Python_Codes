@@ -2,7 +2,7 @@
 import cv2
  
 # Read image
-src = cv2.imread("/home/himanshu/Desktop/iisc/pictures/threshold.png", cv2.IMREAD_GRAYSCALE)
+src = cv2.imread("threshold.png", cv2.IMREAD_GRAYSCALE)
  
 # Set threshold and maxValue
 thresh = 0
