@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img= cv2.imread('/home/himanshu/Desktop/iisc/pictures/apple1.jpg')
+img= cv2.imread('apple1.jpg')
 res=cv2.resize(img,None,fx=1,fy=2,interpolation=cv2.INTER_CUBIC)
 
 #height, width = img.shape[:2]
