@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread('/home/himanshu/Desktop/iisc/pictures/colors.png',1)
+img = cv2.imread('colors.png',1)
 px=img[100,100]
 print(px)
 
