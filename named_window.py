@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 #for gray scale
-img=cv2.imread('/home/himanshu/Desktop/iisc/pictures/apple1.jpg',-1)
+img=cv2.imread('apple1.jpg',-1)
 
 #show image 
 cv2.namedWindow('image_window',cv2.WINDOW_NORMAL)
