@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread('/home/himanshu/Desktop/iisc/pictures/apple1.jpg',1)
+img = cv2.imread('apple1.jpg',1)
 rows=100
 cols=100
 M = cv2.getRotationMatrix2D((50,50),90,1)
