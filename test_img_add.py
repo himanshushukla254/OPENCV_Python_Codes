@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-img1=cv2.imread('/home/himanshu/Desktop/iisc/pictures/img1.png',1)
-img2=cv2.imread('/home/himanshu/Desktop/iisc/pictures/img2.png',1)
+img1=cv2.imread('mg1.png',1)
+img2=cv2.imread('img2.png',1)
 res=img1+img2 #numpy add
 cv2.imshow('image',res)
 
